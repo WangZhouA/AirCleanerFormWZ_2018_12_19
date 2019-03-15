@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+
+    >
+
+
+
+
+    <RelativeLayout
+        android:id="@+id/activity_main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="50dp"
+        >
+
+        <TextView
+            android:id="@+id/no_sense"
+            android:layout_width="match_parent"
+            android:layout_height="?actionBarSize"
+            android:visibility="invisible" />
+        <!--            android:layout_above="@+id/city_tv"
+        -->
+
+
+        <!--介个不要还不行-->
+        <saiyi.com.aircleanerformwz_2018_12_19.view.FloatBackground
+            android:id="@+id/rl_pm_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/no_sense"
+            android:layout_centerInParent="true"
+            android:layout_marginBottom="50dp"
+
+            />
+
+
+
+
+
+        <RelativeLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_gravity="center"
+
+            >
+
+            <TextView
+                android:id="@+id/tv_status"
+                android:layout_width="140dp"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:gravity="center"
+                android:maxLines="2"
+                android:textColor="#FF0470E4"
+                android:textStyle="bold" />
+
+            <com.pascalwelsch.holocircularprogressbar.HoloCircularProgressBar
+                android:id="@+id/holoCircularProgressBar"
+                style="@style/CircularProgressBar"
+                android:layout_width="300dp"
+                android:layout_height="300dp"
+                android:layout_centerInParent="true"
+                android:layout_gravity="center"
+               android:visibility="gone"
+                />
+
+
+            <saiyi.com.aircleanerformwz_2018_12_19.view.MusicProgressBar
+                android:id="@+id/roundProgress"
+                android:layout_width="300dp"
+                android:layout_height="300dp"
+                android:layout_centerInParent="true"
+                android:layout_gravity="center"
+
+
+                />
+
+
+            <TextView
+                android:id="@+id/tv_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/holoCircularProgressBar"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="30dp"
+                android:textColor="#0086ff" />
+
+        </RelativeLayout>
+
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/info_ll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal"
+        android:layout_marginBottom="30dp"
+        >
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+
+            <TextView
+                android:id="@+id/city_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:textSize="24dp" />
+
+
+
+            <TextView
+                android:id="@+id/district_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/city_tv"
+                android:layout_centerHorizontal="true"
+                android:textSize="24dp" />
+
+
+            <ImageView
+                android:id="@+id/image_refresh"
+                android:layout_width="21.67dp"
+                android:layout_height="21.67dp"
+                android:layout_alignBaseline="@+id/city_tv"
+                android:layout_marginLeft="16dp"
+                android:layout_toRightOf="@+id/district_tv"
+                android:src="@drawable/refresh" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+
+            <TextView
+                android:id="@+id/seafloor"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/fly"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/contaminate"
+                android:layout_below="@+id/contaminate"
+                android:layout_marginBottom="15dp"
+                android:text="" />
+
+            <TextView
+                android:id="@+id/contaminate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/temperature"
+                android:layout_centerHorizontal="true"
+                android:text="" />
+
+            <ImageView
+                android:id="@+id/hf_cond"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_alignBottom="@+id/contaminate"
+                android:layout_toRightOf="@+id/contaminate"
+                android:scaleType="fitCenter"
+                android:tint="#0086ff" />
+
+            <TextView
+                android:id="@+id/temperature"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:text=""
+                android:textColor="#0086ff"
+                android:textSize="18dp" />
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true">
+
+        <Button
+            android:id="@+id/cleanair2"
+            android:layout_width="wrap_content"
+            android:layout_height="25dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="30dp"
+            android:background="@drawable/btn2"
+            android:padding="2dp"
+            android:text="连接设备净化空气"
+            android:textColor="#ffffff" />
+
+    </RelativeLayout>
+
+</RelativeLayout>

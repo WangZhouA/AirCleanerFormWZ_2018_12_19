@@ -1,0 +1,41 @@
+-- Merging decision tree log ---
+manifest
+ADDED from F:\test_rofix_rajava2\AirCleanerFormWZ_2018_12_19\progresslibrary\AndroidManifest.xml:2:1-15:12
+INJECTED from F:\test_rofix_rajava2\AirCleanerFormWZ_2018_12_19\progresslibrary\AndroidManifest.xml:2:1-15:12
+INJECTED from F:\test_rofix_rajava2\AirCleanerFormWZ_2018_12_19\progresslibrary\AndroidManifest.xml:2:1-15:12
+INJECTED from F:\test_rofix_rajava2\AirCleanerFormWZ_2018_12_19\progresslibrary\AndroidManifest.xml:2:1-15:12
+INJECTED from F:\test_rofix_rajava2\AirCleanerFormWZ_2018_12_19\progresslibrary\AndroidManifest.xml:2:1-15:12
+INJECTED from F:\test_rofix_rajava2\AirCleanerFormWZ_2018_12_19\progresslibrary\AndroidManifest.xml:2:1-15:12
+INJECTED from F:\test_rofix_rajava2\AirCleanerFormWZ_2018_12_19\progresslibrary\AndroidManifest.xml:2:1-15:12
+	package
+		ADDED from F:\test_rofix_rajava2\AirCleanerFormWZ_2018_12_19\progresslibrary\AndroidManifest.xml:2:11-61
+		INJECTED from F:\test_rofix_rajava2\AirCleanerFormWZ_2018_12_19\progresslibrary\AndroidManifest.xml
+		INJECTED from F:\test_rofix_rajava2\AirCleanerFormWZ_2018_12_19\progresslibrary\AndroidManifest.xml
+	android:versionName
+		ADDED from F:\test_rofix_rajava2\AirCleanerFormWZ_2018_12_19\progresslibrary\AndroidManifest.xml:6:5-30
+		INJECTED from F:\test_rofix_rajava2\AirCleanerFormWZ_2018_12_19\progresslibrary\AndroidManifest.xml
+		INJECTED from F:\test_rofix_rajava2\AirCleanerFormWZ_2018_12_19\progresslibrary\AndroidManifest.xml
+	xmlns:tools
+		ADDED from F:\test_rofix_rajava2\AirCleanerFormWZ_2018_12_19\progresslibrary\AndroidManifest.xml:4:5-51
+	xmlns:android
+		ADDED from F:\test_rofix_rajava2\AirCleanerFormWZ_2018_12_19\progresslibrary\AndroidManifest.xml:3:5-63
+	android:versionCode
+		ADDED from F:\test_rofix_rajava2\AirCleanerFormWZ_2018_12_19\progresslibrary\AndroidManifest.xml:5:5-28
+		INJECTED from F:\test_rofix_rajava2\AirCleanerFormWZ_2018_12_19\progresslibrary\AndroidManifest.xml
+		INJECTED from F:\test_rofix_rajava2\AirCleanerFormWZ_2018_12_19\progresslibrary\AndroidManifest.xml
+uses-sdk
+ADDED from F:\test_rofix_rajava2\AirCleanerFormWZ_2018_12_19\progresslibrary\AndroidManifest.xml:9:5-13:42
+INJECTED from F:\test_rofix_rajava2\AirCleanerFormWZ_2018_12_19\progresslibrary\AndroidManifest.xml:9:5-13:42
+INJECTED from F:\test_rofix_rajava2\AirCleanerFormWZ_2018_12_19\progresslibrary\AndroidManifest.xml:9:5-13:42
+INJECTED from F:\test_rofix_rajava2\AirCleanerFormWZ_2018_12_19\progresslibrary\AndroidManifest.xml:9:5-13:42
+INJECTED from F:\test_rofix_rajava2\AirCleanerFormWZ_2018_12_19\progresslibrary\AndroidManifest.xml:9:5-13:42
+	android:targetSdkVersion
+		ADDED from F:\test_rofix_rajava2\AirCleanerFormWZ_2018_12_19\progresslibrary\AndroidManifest.xml:12:9-38
+		INJECTED from F:\test_rofix_rajava2\AirCleanerFormWZ_2018_12_19\progresslibrary\AndroidManifest.xml
+		INJECTED from F:\test_rofix_rajava2\AirCleanerFormWZ_2018_12_19\progresslibrary\AndroidManifest.xml
+	tools:ignore
+		ADDED from F:\test_rofix_rajava2\AirCleanerFormWZ_2018_12_19\progresslibrary\AndroidManifest.xml:13:9-39
+	android:minSdkVersion
+		ADDED from F:\test_rofix_rajava2\AirCleanerFormWZ_2018_12_19\progresslibrary\AndroidManifest.xml:10:9-34
+		INJECTED from F:\test_rofix_rajava2\AirCleanerFormWZ_2018_12_19\progresslibrary\AndroidManifest.xml
+		INJECTED from F:\test_rofix_rajava2\AirCleanerFormWZ_2018_12_19\progresslibrary\AndroidManifest.xml
